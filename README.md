@@ -49,7 +49,7 @@ Optionally specify a file extension to get one of a known type:
 
 ```js
 randomAvatar({extension: 'jpg'});
-// => https://www.gravatar.com/avatar/76697df5874c854e3cc8fde1200b4298.jpg
+// => //www.gravatar.com/avatar/76697df5874c854e3cc8fde1200b4298.jpg
 ```
 
 You can also use it with a known email address to just get that gravatar.
@@ -58,7 +58,7 @@ However, note this, of course, no longer makes it random, just more of a helper 
 
 ```js
 randomAvatar({email: 'mail@victorquinn.com'});
-// => https://www.gravatar.com/avatar/8595c2591b0bca22e736813af33fa7c3
+// => //www.gravatar.com/avatar/8595c2591b0bca22e736813af33fa7c3
 ```
 
 
