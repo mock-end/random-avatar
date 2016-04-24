@@ -1,0 +1,52 @@
+{
+  "name": "random-avatar",
+  "version": "1.0.0",
+  "description": "Return a URL to a random avatar from Gravatar.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js",
+    "pretest": "npm run lint",
+    "test": "mocha -R spec",
+    "test:cov": "rm -rf ./test/coverage && istanbul cover _mocha --dir ./test/coverage -- -R spec",
+    "test:rpt": "npm run test:cov && coveralls < ./test/coverage/lcov.info",
+    "prepublish": "npm test"
+  },
+  "keywords": [
+    "avatar",
+    "gravatar",
+    "uri",
+    "web",
+    "random",
+    "randomly",
+    "randomize",
+    "chance",
+    "test",
+    "dice",
+    "mock"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mock-end/random-avatar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mock-end/random-avatar/issues"
+  },
+  "homepage": "https://github.com/mock-end/random-avatar#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "blueimp-md5": "^2.3.0",
+    "object-assign": "^4.0.1",
+    "random-email": "^1.0.2"
+  }
+}
