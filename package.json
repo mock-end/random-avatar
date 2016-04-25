@@ -1,6 +1,6 @@
 {
   "name": "random-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return a URL to a random avatar from Gravatar.",
   "main": "index.js",
   "scripts": {
@@ -47,6 +47,6 @@
   "dependencies": {
     "blueimp-md5": "^2.3.0",
     "object-assign": "^4.0.1",
-    "random-email": "^1.0.2"
+    "random-email": "^1.0.3"
   }
 }
